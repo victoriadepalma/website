@@ -1,12 +1,20 @@
-import { useState } from 'react'
+// import {  Routes, Route } from "react-router-dom"
 
-import './App.css'
+import React from "react"
+import { Router } from "./Views/Routes/Router"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <h1>Victoria De Palma</h1>
+    <>
+    <div>
+      
+    <Router />
+    
+  </div>
+  </>
   )
 }
 

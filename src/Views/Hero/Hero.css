@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+.hero-image {
+  
+    background-image: url(src/assets/images/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    font-family: 'Heebo', sans-serif;
+    margin: -1vw;
+    
+}
+
+.name{
+    font-size: 14vh;
+    color: white;
+    text-align: center;
+}
+
+
+.welcome {
+    font-size: 4.5vh;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    color: white;
+    width: 14vw;
+    margin-top: -8vh;
+    border-right: .15em solid white; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-left: 25vw;
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: typing 1.2s steps(30, end) 0.5s, blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0vw }
+    to { width: 14vw }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+.container-hero {
+    height: 100vh;
+    margin: -1vw;
+  
+ 
+   }
+   
+   .bg-container {
+    position: absolute;
+    margin-top: -9vh;
+    height: 98.5vh;
+    background-color: #E4DDD7;
+ 
+    font-family: 'Heebo', sans-serif;
+   
+  
+
+   }
+   .bg-container h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    font-size: 70px;
+    font-size: 12vh;
+    color: white;
+    text-align: center;
+   }
+

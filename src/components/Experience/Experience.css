@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+  }
+  .container {
+    
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #E4DDD7;
+    margin: -1vh;
+    font-family: 'Heebo', sans-serif;
+  }
+  .horizontal-scrolling-items {
+    display: flex;
+    margin-top: 35vh;
+    width: 2600px;
+    height: 32vh;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .horizontal-scrolling-items__item {
+    white-space: nowrap;
+  }
+
+  .experience-title{
+    position: absolute;
+font-size: 5vh;
+color: black;
+margin-top: 8vh;
+margin-left: 40vw;
+  }
