@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+.quote-container{
+    position: relative;
+    height: 50vh;
+    background-color: #E4DDD7;
+    font-family: 'Heebo', sans-serif;
+    margin: -1vw;
+    font-size: 5vh;
+    text-align: center;
+    
+    
+}
+
+.quote-info{
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 9vw;
+   
+    color: black;
+}
+
+
+.education-container{
+    position: relative;
+height: 50vh;
+background-color: black;
+margin: -1vw;
+font-family: 'Heebo', sans-serif;
+margin: -1vw;
+
+}
+

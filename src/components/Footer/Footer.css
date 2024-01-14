@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
 footer{
-    background-color:#F8DECC;
+    background-color:#E4DDD7;
     height: 40vh;
     margin: -1vw;
+    font-family: 'Heebo', sans-serif;
+    color: black;
 }

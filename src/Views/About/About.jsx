@@ -4,13 +4,20 @@ import { ParallaxProvider, useParallax } from "react-scroll-parallax";
 import { ParallaxBanner } from "react-scroll-parallax";
 
 export const About = () => {
-
+    const background = {
+        image: "src/assets/images/about-b.png",
+        translateY: [0, 1.1],
+        opacity: [0.8, 1],
+        scale: [0.8, 1, "easeOutCubic"],
+        shouldAlwaysCompleteAnimation: true,
+        
+      };
     const image = {
         image: "src/assets/images/result.png",
         translateY: [0, 1.1],
         translateX:[-16,-13],
         opacity: [1, 1],
-        scale: [0.4, 0.55, "easeOutCubic"],
+        scale: [0.2, 0.55, "easeOutCubic"],
         shouldAlwaysCompleteAnimation: true,
       };
     const intro1 = {
@@ -36,7 +43,7 @@ export const About = () => {
         <div className='about-container'>
       
         <ParallaxBanner
-       layers={[intro1, image]}
+       layers={[background, intro1, image]}
        className="ab-container"
      />
             
