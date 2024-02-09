@@ -6,7 +6,7 @@ import { ParallaxBanner } from "react-scroll-parallax";
 
 export const Hero = () => {
     const background = {
-        image: "src/assets/images/hero.jpeg",
+        image: "public/assets/images/hero.jpeg",
         translateY: [0, 1.1],
         opacity: [1, 0],
         scale: [1, 0.8, "easeOutCubic"],

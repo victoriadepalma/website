@@ -23,9 +23,9 @@ export const Experience = () => {
        />
 <div class="horizontal-scrolling-items">
 
-<img className="horizontal-scrolling-items__item" src='src/assets/images/Languages.png'></img>
+<img className="horizontal-scrolling-items__item" src='/assets/images/Languages.png'></img>
 
-<img className="horizontal-scrolling-items__item" src='src/assets/images/Languages.png'></img>
+<img className="horizontal-scrolling-items__item" src='/assets/images/Languages.png'></img>
 
 </div>
 

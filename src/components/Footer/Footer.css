@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 
-footer{
+.footer{
     background-color:#E4DDD7;
-    height: 40vh;
+    height: 25vh;
     margin: -1vw;
     font-family: 'Heebo', sans-serif;
+    font-size: 3vh;
     color: black;
+    padding: 8vw;
+    text-align: center;
+    
+}
+
+.linkedin-pic{
+    height: 7vh;
+    
 }
