@@ -1,7 +1,7 @@
 {
   "name": "website",
   "private": true,
-  "homepage": "hhttps://victoriadepalma.github.io/website/",
+  "homepage": "https://victoriadepalma.github.io/website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
